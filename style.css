@@ -1,0 +1,79 @@
+.testheader{
+    width: 300px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+text{
+    font-size: 100%;
+}
+.logo{
+    /* max-height: 80%;
+    max-width: 80%; */
+    position: static;
+    size: 10px;
+    top: -5px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.headerpic{
+    position: absolute;
+    position: center;
+    top: -5px;
+    left: -1px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    z-index: -2;
+}
+.headertext{
+    color: white;
+    size: 100px;
+    font-family: "BioRhyme Expanded", roboto;
+    font-size: 80px;
+    z-index: 0;
+}
+h1{
+    font-family: "Honk";
+    border-style: inset;
+    padding: 6px;
+    border-color: lightcoral;
+    border-radius: 5px;
+    padding-top: 0px;
+}
+table{
+    font-family: "Bebas Neue", sans-serif;
+}
+p{
+    background-color: black ;
+    color:white;
+    font-family: "Bebas Neue", sans-serif;
+    border-style: inset;
+    border-color: white;
+    padding: 5px;
+}
+body {
+    /* background-image: url("Images/bebuBackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    THIS IS TO MAKE BACKGROUND FIT WINDOW SIZE*/
+    background-color: lightgray;
+    overflow-x:hidden ;
+}
+h3{
+    color: white;
+}
+button{
+    font-family: "Honk";
+}
+
+/* @media screen (max-width: 860) {
+    .headertext{
+        color: black;
+    } 
+} */
