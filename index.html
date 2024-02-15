@@ -1,76 +1,58 @@
 <!DOCTYPE html>
-
-<html>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Single+Day&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=BioRhyme+Expanded&display=swap" rel="stylesheet">
+<html lang="en">
 <head>
-    <div class="testheader">
-        <div class="headerpic">
-             <img src="Images/header.png" alt="...">
-        </div>
-        <div class="homeheader"> 
-            <div class="logo">
-                <a href="page2.html" target="_blank">
-                <img src="Images/download.png" class="rounded float-start, img-fluid" alt="...">
-            </div>
-            <div class="headertext">
-                <a href="page2.html" target="_blank">PNSync</a>
-            </div>
-         </div>
-    </div>
-    <title>Cloud Management </title>
-    <h1>This is a test for the upcoming research project</h1>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNSync</title>
+
+    <div class="d-flex justify-content-start">
+      <div class="p-2"><img src="Images/sample_logo.png" class="img-fluid" alt="..." style="width:300px;" href="index.html"></div>
+      <div class="p-2"></div>
+      <div class="p-2"></div>
+  </div>
+</head> 
 <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="subjects.html">Subjects list</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PNSync Information</a>
+            </li>
+            <li class="nav-item red">
+              <a class="nav-link disabled red" color="blue">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <p id="sample">This will be a sample hyperlink</p>
-    <br>
+    <img src="Images/manywebsites.png" align="left" class="rounded float-start homepic homepicmargin" alt="...">
+    <div class="hometext homepicmargin lh-lg">PNSync is a Learning Management System Website made specifically for Grade 12 students of The University of Cabuyao (UC-PnC) for the Academic Year 2023-2024. As a prototype for the capstone product of Group 3 Researchers from 12ESTEM-C6, PNSync offers different modules of varrying subjects of ESTEM-C students. From Major subjects to Core subjects, all subjects are offered with different modules to further enhance students' learning options.</div>
+
+    <div class="d-flex justify-content-start logohome">
     </div>
-    <!--<a> creates the hyperlink src and href for the link, target for creating a new tab when opened, and title for a hover text-->
-    <a href="https://peoplaid.com/2023/04/01/dennis-hain/" target="_blank" title="hopefully this works">
-        <!--img/video/audio src for calling a photo/video/audio and /*foldername*/ to open a folder to locate the image/video/audio-->
-        <img src="/images/denha.png" height="200">
-    </a>
-    <!--controls, autoplay, and loop are options when playing a video or audio-->
-    <br>
-    </audio>
+    
 
-    <br>
-    <table bgcolor="black">
-        <h3>Mayor Dennis Hain Work Schedule</h3>
-        <tr width="1050" bgcolor="red"> 
-            <th width="150">Sunday</th>
-            <th width="150">Monday</th>
-            <th width="150">Tuesday</th>
-            <th width="150">Wednesday</th>
-            <th width="150">Thursday</th>
-            <th width="150">Friday</th>
-            <th width="150">Saturday</th>
-        </tr>
-        <tr bgcolor="white">
-            <td align="center">Kumain</td>
-            <td align="center">Mangurakot</td>
-            <td align="center">Mangurakot</td>
-            <td align="center">Mangurakot</td>
-            <td align="center">Mangurakot</td>
-            <td align="center">Mangurakot</td>
-            <td align="center">Kumain</td>
-        </tr>
-    </table>
+    <div class="container m-1 mw-auto mh-auto">
+    </div>
 
-    <br>
-
-    <p id="button"> Clic the Button to see a picture of a Dog.</p>>
-    <a href="page2.html">
-    <button style="font-size: large;">click here</button>
-    </a>
+    <!-- JavaScript Bootstrap Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 </body>
-
-
-
-
-</html> 
+</html>
