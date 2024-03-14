@@ -1,0 +1,102 @@
+body{
+    background-image: url("./Images/pnc-front.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0%;
+}
+.bg-color{
+    background-color:white;
+}
+#font{
+    font-size: 18px;
+    color: rgb(3, 128, 55);
+    text-shadow: 0.5px 0.5px rgb(174, 175, 175);
+    font-family: "Raleway";
+}
+.margin{
+    padding-left: 950px;
+}
+.bg-trans{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: justify;
+    position: absolute;
+    max-width: 93vw;
+    min-width: 93vw;
+    /* padding-right: 15px; */
+    /*display: flex;
+    flex-direction: row;
+    grid-template-columns: auto auto;*/
+}
+#logo{
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+}
+#pnc{
+    max-width: 200px;
+    max-height: 200px;
+    min-height: 195px;
+    min-width: 200px;
+    float: right;
+    padding-left: 10px;
+}
+.pad{
+    padding-top: 18px;
+}
+.center{
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    line-height: 1.5;
+}
+.align{
+    text-align: center;
+}
+.click{
+    max-width: 200px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.tablepad{
+    height:100%;
+    width:100%;
+}
+.align-center{
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    object-position: center;
+    display: flex;
+}
+.spacing{
+        padding-top: 10px;
+}
+.form{
+    max-width: 300px;
+    align-items: center;
+}
+.centerform{
+    align-items: center;
+    text-align: center;
+}
+.button{
+    border: none;
+    color: transparent;
+    background-color: transparent;
+}
+.justify{
+    text-align: right;
+}
